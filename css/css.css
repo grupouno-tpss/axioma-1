@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    color:white;
+    font-weight: bold;
+}
+
+.portada{
+    background-image: url(https://img.freepik.com/foto-gratis/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28312.jpg?size=626&ext=jpg&ga=GA1.2.1940307751.1628121600);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px;
+    padding-top: 0px;
+}
+
+ 
+.menu{
+    color: white;
+    background: rgba(0,0,0,0.75);
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    font-family: 'Style Script', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+
+#p0, #p1, #p2, #p3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: block;
+    padding-top: 30px;
+}
+
+#h0{
+    display: block;
+}
+
+.names{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+}
+
+.names div{
+    margin: 80px;
+}
+
+.names h1{
+    font-size: 120px;
+}
+
+/*Button*/
+
+.buttonM{
+    color: white;
+    position: fixed;
+    top: 500px;
+    left: 90%;
+    background: transparent;
+    border: solid gray 3px;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.buttonM:hover{
+    box-shadow: -1px 3px 5px 1px white;
+}
+
+.act{
+    width: 100%;
+    height: 860px;
+    background: rgb(29, 86, 161);
+    font-size: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.act h3{
+    padding: 30px;
+}
+
+.silens{
+    position: fixed;
+    width: 50px;
+    top: 525px;
+    left: 15px;
+    background: transparent;
+}

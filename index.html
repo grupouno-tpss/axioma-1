@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axioma 1 - grupo 1</title>
+    <script>
+        if (innerWidth < 500) {
+            alert("Hola, somos el grupo 1. Lastimosamente, esta pagina que hemos creado no es todavia responsive, por tanto, no se puede visualizar desde un celular. Te invitamos a visualizar la pagina desde un computador (pc)");
+            window.stop();
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Style+Script&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="portada" id="portada">
+        <div class="menu">
+            <p>Grupo 1</p>
+        </div>
+
+        <div class="names">
+            <div>
+                <h1>Es imposible <br> no comunicar</h1>
+            </div>
+            <div>
+                <h2>Grupo 1</h2><br>
+                <p>Andrés Guerrero</p>
+                <p>Andrés Ramos</p>
+                <p>Jhojann Triana</p>
+                <p>Juliana Penagos</p>
+                <p>Edwin Renteria</p>
+            </div>
+        </div>
+    </div>
+    
+    <button id="buttonStart" class="buttonM">Empezar</button>
+
+    <audio src="music.mp3" id="audio"></audio>
+    <audio src="correct.mp3" id="correct"></audio>
+    <img src="s.png" class="silens" id="silens">
+
+    <script src="javascript/general.js"></script>
+    <script src="javascript/js.js"></script>
+    <script src="javascript/start.js"></script>
+    <script src="javascript/validation.js"></script>
+
+</body>
+
+</html>
