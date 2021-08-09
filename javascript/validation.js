@@ -22,7 +22,7 @@ function result (a, b) {
 
 function next () {
     location.href = window.location + "#h" + n;
-    window.history.replaceState({}, "hola", "file:///C:/xampp/htdocs/axioma1/index.html");
+    window.history.replaceState({}, "hola", "https://grupouno-tpss.github.io/axioma-1/");
     n++;
     document.getElementById("correct").play();
 }
