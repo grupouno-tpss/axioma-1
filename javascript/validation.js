@@ -22,7 +22,7 @@ function result (a, b) {
 
 function next () {
     location.href = window.location + "#h" + n;
-    window.history.replaceState({}, "hola", "https://grupouno-tpss.github.io/axioma-1/");
+    window.history.replaceState({}, "hola", "https://grupouno-tpss.github.io/axioma1/");
     n++;
     document.getElementById("correct").play();
 }
